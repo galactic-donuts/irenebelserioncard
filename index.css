@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(to right,crimson,red )
+}
+
+img {
+    width:250px;
+    height:200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 60px;
+   padding: 40px;
+}
+
+.irene {
+    background-color: black;
+    width: 400px;
+    height:600px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 2px;
+    opacity: 90%
+}
+
+a:link { /* have to separate link and change text decoration to get rid of blue underline*/
+    text-decoration: none;
+}
+
+a:hover {
+    transform: skew(7deg)
+}
+    #name {
+        width: 200px;
+        height: 30px;
+        display: block;
+        margin: 0 auto;
+        margin-top: -20px;
+        text-transform: uppercase;
+        border-color:crimson;
+        border-radius:10px;
+        background-color:crimson;
+        color:white;
+        
+
+    }
+
+
+.info {
+    width: 300px;
+    height: 250px;
+    background-color:white;
+    display:block;
+    margin:0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: crimson;
+    text-align: justify;
+    font-size: 15px;
+    padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+}
